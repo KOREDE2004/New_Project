@@ -1,1 +1,3 @@
-alert("hello mf");
+function showMessage(message) {
+    document.getElementById('message').textContent = message;
+}
